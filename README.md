@@ -48,4 +48,8 @@ The configs include a basic installation with the standard profile.
 * [[ddev Docs] PhpStorm Integration](https://ddev.readthedocs.io/en/stable/users/topics/phpstorm/)
 * [[Blocker] PHPStorm Bug](https://youtrack.jetbrains.com/issue/WI-62463)
 
-## NEXT TODO: PHPCodeSniffer with Docker remote (see Blocker issue)
+### TODO:
+
+* PHPCodeSniffer/PHPStan with Docker remote (see Blocker issue)
+* PHPUnit pre-configure
+* Xdebug
