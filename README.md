@@ -45,11 +45,14 @@ The configs include a basic installation with the standard profile.
 
 ## Resources
 
+* [[Drupal.org] CodeSniffer](https://www.drupal.org/docs/contributed-modules/code-review-module/installing-coder-sniffer)
 * [[ddev Docs] PhpStorm Integration](https://ddev.readthedocs.io/en/stable/users/topics/phpstorm/)
 * [[Blocker] PHPStorm Bug](https://youtrack.jetbrains.com/issue/WI-62463)
+* [[GitHub] drupal/core-dev](https://github.com/drupal/core-dev)
+* [[mglaman.dev] PHPStan](https://mglaman.dev/blog/tighten-your-drupal-code-using-phpstan)
 
 ### TODO:
 
 * PHPCodeSniffer/PHPStan with Docker remote (see Blocker issue)
-* PHPUnit pre-configure
+* PHPUnit pre-configure https://mglaman.dev/blog/running-drupals-phpunit-test-suites-ddev
 * Xdebug

@@ -138,6 +138,10 @@
       <excludeFolder url="file://$MODULE_DIR$/vendor/chi-teck/drupal-code-generator" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/asm89/stack-cors" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/stack/builder" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/phpstan/phpstan" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/phpstan/phpstan-deprecation-rules" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/phpstan/extension-installer" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/mglaman/phpstan-drupal" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
