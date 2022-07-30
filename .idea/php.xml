@@ -159,7 +159,7 @@
             <item value="$PROJECT_DIR$/.ddev/.ddev-docker-compose-full.yaml" />
           </dockerComposeConfigurationPaths>
           <envs>
-            <env name="COMPOSE_PROJECT_NAME" value="ddev-drupal-9-dev" />
+            <env name="COMPOSE_PROJECT_NAME" value="ddev-drupal-ddev" />
           </envs>
         </remote_data>
       </interpreter>
