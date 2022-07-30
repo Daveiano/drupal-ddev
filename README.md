@@ -99,7 +99,7 @@ Includes necessary PHPStorm configs for:
 
 ## Credits
 
-https://mglaman.dev/blog/running-drupals-functionaljavascript-tests-ddev webdriver container
+Thanks to Matt Glaman for the webdriver container (https://mglaman.dev/blog/running-drupals-functionaljavascript-tests-ddev).
 
 ### TODO:
 
