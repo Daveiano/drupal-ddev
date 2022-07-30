@@ -3,6 +3,7 @@
 /vendor/
 /web/core/
 /web/modules/contrib/
+/web/modules/maintain/
 /web/themes/contrib/
 /web/profiles/contrib/
 /web/libraries/

@@ -151,6 +151,12 @@
       <path value="$PROJECT_DIR$/vendor/laminas/laminas-text" />
       <path value="$PROJECT_DIR$/vendor/laminas/laminas-servicemanager" />
       <path value="$PROJECT_DIR$/vendor/mathieuviossat/arraytotexttable" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/persistence" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/event-manager" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/collections" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/common" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/cache" />
     </include_path>
   </component>
   <component name="PhpInterpreters">
