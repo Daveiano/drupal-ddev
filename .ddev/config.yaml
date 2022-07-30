@@ -23,7 +23,7 @@ hooks:
     - exec: ./.ddev/scripts/phpunit-config.sh
   post-start:
     # Install Drupal after start if not installed already
-    - exec: "(drush status bootstrap | grep -q Successful) || echo '$settings[\'config_sync_directory\'] = \'./../config\';' >> web/sites/default/settings.php && drush site-install -y --db-url=mysql://db:db@db/db"
+    - exec: ./.ddev/scripts/drupal-install.sh
     # Generate a one-time login link for the admin account.
     - exec: "drush uli 1"
 

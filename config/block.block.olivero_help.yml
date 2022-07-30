@@ -1,16 +1,16 @@
-uuid: 50011036-fe7c-48c4-a342-7551eb223a29
+uuid: 74b878e6-22fd-4ad0-a57c-743d59303bc0
 langcode: en
 status: true
 dependencies:
   module:
     - help
   theme:
-    - seven
+    - olivero
 _core:
-  default_config_hash: bYvyEzJ7UcmjXZAYLxb4Qb_J77K9bPbk4ealdap31FY
-id: seven_help
-theme: seven
-region: help
+  default_config_hash: VfPFqqxfkomud5CO8DUijw85QIl9GIxh_nIxLOYESxg
+id: olivero_help
+theme: olivero
+region: content_above
 weight: 0
 provider: null
 plugin: help_block

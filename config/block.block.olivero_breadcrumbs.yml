@@ -1,15 +1,15 @@
-uuid: d45e1b17-7fa3-49ec-8e9a-efbdb89bc5b4
+uuid: f54d623a-4fb9-405c-a39a-a545df98d6eb
 langcode: en
 status: true
 dependencies:
   module:
     - system
   theme:
-    - seven
+    - olivero
 _core:
-  default_config_hash: 2rIN97Rd7-rjv3P4h0-xrZnAgPJHyXFEwrB--sS2_qE
-id: seven_breadcrumbs
-theme: seven
+  default_config_hash: VhBzWb7lMRtIOg9G7VSw_0uopi-7zXeHq4vXqqV1HFE
+id: olivero_breadcrumbs
+theme: olivero
 region: breadcrumb
 weight: 0
 provider: null

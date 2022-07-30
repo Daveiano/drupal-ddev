@@ -1,17 +1,17 @@
-uuid: 136d19f9-dbde-43d9-b574-2ab644fd1829
+uuid: e823e064-c02f-4204-b8a0-85b1c13e32a1
 langcode: en
 status: true
 dependencies:
   module:
     - system
   theme:
-    - bartik
+    - olivero
 _core:
-  default_config_hash: I6Esh8cDlPdl2POZg4MOSRUrQNYA1UNCJCxL2yqT_wc
-id: bartik_powered
-theme: bartik
-region: footer_fifth
-weight: 10
+  default_config_hash: eYL19CLDyinGTWYQfBD1DswWzglEotE_kHnHx3AxTXM
+id: olivero_powered
+theme: olivero
+region: footer_bottom
+weight: 0
 provider: null
 plugin: system_powered_by_block
 settings:
