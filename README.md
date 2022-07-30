@@ -14,9 +14,15 @@ This is also some kind of resource collection for my self to quickly set up a de
 
 This setup uses [ddev](https://ddev.readthedocs.io/en/stable/) to provide a webserver and database via docker compose.
 
-To start the containers, run: `ddev start`. <br/>
-Stop: `ddev stop`. <br/>
+To start the containers, run: `ddev start` <br/>
+Stop: `ddev stop` <br/>
 Import database dump: `ddev import-db --src=/path/to/db.sql.gz`
+
+Use `ddev describe` to get detailed info about the services:
+
+![ddev describe cli output](.github/images/ddev-describe.png)
+
+To get a list of all available commands, use `ddev -h`
 
 For more see the [ddev CLI Docs](https://ddev.readthedocs.io/en/stable/users/cli-usage/).
 
@@ -26,7 +32,7 @@ Prefix all composer commands with `ddev`, eg. `ddev composer install`.
 
 ### drush
 
-Prefix all drush commands with `ddev exec`, eg. `ddev exec drush cr`.
+Prefix all drush commands with `ddev`, eg. `ddev drush cr`.
 
 ## Pre-configuration
 
@@ -50,9 +56,10 @@ The configs include a basic installation with the standard profile.
 * [[Blocker] PHPStorm Bug](https://youtrack.jetbrains.com/issue/WI-62463)
 * [[GitHub] drupal/core-dev](https://github.com/drupal/core-dev)
 * [[mglaman.dev] PHPStan](https://mglaman.dev/blog/tighten-your-drupal-code-using-phpstan)
+* [[mglaman.dev] PHPUnit](https://mglaman.dev/blog/running-drupals-phpunit-test-suites-ddev)
+* [[Drupal.org] PHPUnit in Drupal](https://www.drupal.org/docs/automated-testing/phpunit-in-drupal)
+* [[Drupal.org] Running PHPUnit tests](https://www.drupal.org/docs/automated-testing/phpunit-in-drupal/running-phpunit-tests)
 
 ### TODO:
 
-* PHPCodeSniffer/PHPStan with Docker remote (see Blocker issue)
-* PHPUnit pre-configure https://mglaman.dev/blog/running-drupals-phpunit-test-suites-ddev
 * Xdebug
