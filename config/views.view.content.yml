@@ -3,7 +3,6 @@ langcode: en
 status: true
 dependencies:
   module:
-    - flexible_views
     - node
     - user
 _core:
@@ -438,7 +437,7 @@ display:
             first: '« First'
             last: 'Last »'
       exposed_form:
-        type: manual_selection
+        type: basic
         options:
           submit_button: Filter
           reset_button: true
@@ -447,13 +446,6 @@ display:
           expose_sort_order: true
           sort_asc_label: Asc
           sort_desc_label: Desc
-          wrap_with_details: false
-          details_label: Filter
-          filter_always_visible:
-            title: title
-            type: type
-            status: '0'
-            langcode: '0'
       access:
         type: perm
         options:
@@ -661,54 +653,12 @@ display:
           expose:
             operator_limit_selection: false
             operator_list: {  }
-        column_selector:
-          id: column_selector
-          table: views
-          field: column_selector
-          relationship: none
-          group_type: group
-          admin_label: ''
-          plugin_id: column_selector
-          operator: '='
-          value: ''
-          group: 1
-          exposed: true
-          expose:
-            operator_id: ''
-            label: 'Column Options'
-            description: ''
-            use_operator: false
-            operator: ''
-            operator_limit_selection: false
-            operator_list: {  }
-            identifier: columns_selector
-            required: false
-            remember: true
-            multiple: false
-            remember_roles:
-              authenticated: authenticated
-              anonymous: '0'
-              content_editor: '0'
-              administrator: '0'
-          is_grouped: false
-          group_info:
-            label: ''
-            description: ''
-            identifier: ''
-            optional: true
-            widget: select
-            multiple: false
-            remember: false
-            default_group: All
-            default_group_multiple: {  }
-            group_items: {  }
-          wrap_with_details: true
       filter_groups:
         operator: AND
         groups:
           1: AND
       style:
-        type: flexible_table
+        type: table
         options:
           grouping: {  }
           row_class: ''
@@ -720,17 +670,18 @@ display:
             name: name
             status: status
             changed: changed
+            comment_count: comment_count
+            created: created
+            nid: nid
             operations: operations
           default: changed
           info:
             node_bulk_form:
-              default_visible: true
               align: ''
               separator: ''
               empty_column: false
               responsive: ''
             title:
-              default_visible: true
               sortable: true
               default_sort_order: asc
               align: ''
@@ -738,7 +689,6 @@ display:
               empty_column: false
               responsive: ''
             type:
-              default_visible: true
               sortable: true
               default_sort_order: asc
               align: ''
@@ -746,7 +696,6 @@ display:
               empty_column: false
               responsive: ''
             name:
-              default_visible: true
               sortable: false
               default_sort_order: asc
               align: ''
@@ -754,7 +703,6 @@ display:
               empty_column: false
               responsive: priority-low
             status:
-              default_visible: true
               sortable: true
               default_sort_order: asc
               align: ''
@@ -762,15 +710,34 @@ display:
               empty_column: false
               responsive: ''
             changed:
-              default_visible: true
               sortable: true
               default_sort_order: desc
               align: ''
               separator: ''
               empty_column: false
               responsive: priority-low
+            comment_count:
+              sortable: false
+              default_sort_order: asc
+              align: ''
+              separator: ''
+              empty_column: false
+              responsive: ''
+            created:
+              sortable: false
+              default_sort_order: asc
+              align: ''
+              separator: ''
+              empty_column: false
+              responsive: ''
+            nid:
+              sortable: false
+              default_sort_order: asc
+              align: ''
+              separator: ''
+              empty_column: false
+              responsive: ''
             operations:
-              default_visible: true
               align: ''
               separator: ''
               empty_column: false
