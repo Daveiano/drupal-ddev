@@ -1,5 +1,7 @@
 # drupal-ddev
 
+**Requires at least PHPStorm 2022.2 because of this issue: https://youtrack.jetbrains.com/issue/WI-62463**
+
 This is my personal development environment when working with Drupal. Created via the
 `composer create-project drupal/recommended-project my_site_name_dir` command, see the drupal docs
 for more info: https://www.drupal.org/node/2718229?no_cache=1651100340#s-create-a-project.
