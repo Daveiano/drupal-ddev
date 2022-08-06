@@ -57,7 +57,9 @@
             }
         },
         "merge-plugin": {
-            "require": []
+            "require": [
+                "web/modules/maintain/migrate_queue_importer/composer.json"
+            ]
         },
         "installer-paths": {
             "web/core": [
