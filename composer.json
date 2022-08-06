@@ -36,7 +36,7 @@
     "conflict": {
         "drupal/drupal": "*"
     },
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "prefer-stable": true,
     "config": {
         "platform-check": false,
@@ -57,7 +57,9 @@
             }
         },
         "merge-plugin": {
-            "require": []
+            "require": [
+                "web/modules/maintain/commerce_exchanger_cryptocompare/composer.json"
+            ]
         },
         "installer-paths": {
             "web/core": [
