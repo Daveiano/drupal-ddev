@@ -22,7 +22,8 @@
         "drupal/core-recommended": "^9.3",
         "drupal/devel": "^4.1",
         "drupal/upgrade_status": "^3.14",
-        "drush/drush": "^11.0"
+        "drush/drush": "^11.0",
+        "wikimedia/composer-merge-plugin": "^2.0"
     },
     "require-dev": {
         "drupal/core-dev": "^9.3",
@@ -35,7 +36,7 @@
     "conflict": {
         "drupal/drupal": "*"
     },
-    "minimum-stability": "stable",
+    "minimum-stability": "beta",
     "prefer-stable": true,
     "config": {
         "platform-check": false,
@@ -45,7 +46,8 @@
             "drupal/core-composer-scaffold": true,
             "drupal/core-project-message": true,
             "dealerdirect/phpcodesniffer-composer-installer": true,
-            "phpstan/extension-installer": true
+            "phpstan/extension-installer": true,
+            "wikimedia/composer-merge-plugin": true
         }
     },
     "extra": {
@@ -53,6 +55,11 @@
             "locations": {
                 "web-root": "web/"
             }
+        },
+        "merge-plugin": {
+            "require": [
+                "web/modules/maintain/simplenews_decoupled/composer.json"
+            ]
         },
         "installer-paths": {
             "web/core": [

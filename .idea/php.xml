@@ -157,6 +157,7 @@
       <path value="$PROJECT_DIR$/vendor/doctrine/collections" />
       <path value="$PROJECT_DIR$/vendor/doctrine/common" />
       <path value="$PROJECT_DIR$/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/vendor/wikimedia/composer-merge-plugin" />
     </include_path>
   </component>
   <component name="PhpInterpreters">
