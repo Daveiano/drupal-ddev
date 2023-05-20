@@ -1,0 +1,9 @@
+uuid: acfbd374-64c0-4584-b2c7-50f548ebcd60
+langcode: en
+status: true
+dependencies: {  }
+currencyCode: BTC
+name: Bitcoin
+numericCode: '000'
+symbol: BTC
+fractionDigits: 6

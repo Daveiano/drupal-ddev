@@ -1,0 +1,22 @@
+rates:
+  BTC:
+    EUR:
+      value: 24914.19
+      sync: 0
+    USD:
+      value: 26890.88
+      sync: 0
+  EUR:
+    BTC:
+      value: 4.0E-5
+      sync: 0
+    USD:
+      value: 1.075635
+      sync: 0
+  USD:
+    BTC:
+      value: 3.7E-5
+      sync: 0
+    EUR:
+      value: 0.921825
+      sync: 0
