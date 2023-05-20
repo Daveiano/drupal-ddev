@@ -102,7 +102,3 @@ Includes necessary PHPStorm configs for:
 ## Credits
 
 Thanks to Matt Glaman for the webdriver container (https://mglaman.dev/blog/running-drupals-functionaljavascript-tests-ddev).
-
-### TODO:
-
-* Xdebug
