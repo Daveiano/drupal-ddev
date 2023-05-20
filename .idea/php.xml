@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="MessDetectorOptionsConfiguration">
+    <option name="transferred" value="true" />
+  </component>
+  <component name="PHPCSFixerOptionsConfiguration">
+    <option name="transferred" value="true" />
+  </component>
   <component name="PHPCodeSnifferOptionsConfiguration">
     <option name="codingStandard" value="Drupal" />
+    <option name="extensions" value="php,js,css,inc,module" />
+    <option name="highlightLevel" value="WARNING" />
+    <option name="installedPaths" value="/var/www/html/vendor/slevomat/coding-standard,/var/www/html/vendor/drupal/coder/coder_sniffer," />
+    <option name="showSniffs" value="true" />
+    <option name="useInstalledPaths" value="true" />
+    <option name="transferred" value="true" />
   </component>
   <component name="PhpCodeSniffer">
     <phpcs_settings>
@@ -272,10 +284,19 @@
       <phpstan_by_interpreter interpreter_id="313b7783-4a70-4a75-909e-4bd213a1e6b6" tool_path="/var/www/html/vendor/bin/phpstan" timeout="60000" />
     </PhpStan_settings>
   </component>
+  <component name="PhpStanOptionsConfiguration">
+    <option name="config" value="phpstan.neon" />
+    <option name="fullProject" value="true" />
+    <option name="level" value="2" />
+    <option name="transferred" value="true" />
+  </component>
   <component name="PhpUnit">
     <phpunit_settings>
       <phpunit_by_interpreter interpreter_id="313b7783-4a70-4a75-909e-4bd213a1e6b6" load_method="PHPUNIT_PHAR" configuration_file_path="/var/www/html/web/core/phpunit.xml" custom_loader_path="/var/www/html/vendor/autoload.php" phpunit_phar_path="vendor/bin/phpunit" use_configuration_file="true" />
       <PhpUnitSettings custom_loader_path="$PROJECT_DIR$/vendor/autoload.php" />
     </phpunit_settings>
+  </component>
+  <component name="PsalmOptionsConfiguration">
+    <option name="transferred" value="true" />
   </component>
 </project>
