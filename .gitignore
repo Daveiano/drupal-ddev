@@ -8,6 +8,9 @@
 /web/profiles/contrib/
 /web/libraries/
 
+/web/themes/maintain/
+
+
 # Ignore sensitive information
 /web/sites/*/settings.php
 /web/sites/*/settings.local.php
