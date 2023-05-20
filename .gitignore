@@ -3,13 +3,13 @@
 /vendor/
 /web/core/
 /web/modules/contrib/
-/web/modules/maintain/
 /web/themes/contrib/
 /web/profiles/contrib/
 /web/libraries/
 
-/web/themes/maintain/
-
+# Maintained modules/themes
+/web/modules/maintain/
+/web/themes/maintain
 
 # Ignore sensitive information
 /web/sites/*/settings.php
