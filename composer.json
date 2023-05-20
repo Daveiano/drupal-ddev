@@ -20,7 +20,7 @@
         "drupal/core-composer-scaffold": "^9.3",
         "drupal/core-project-message": "^9.3",
         "drupal/core-recommended": "^9.3",
-        "drupal/devel": "^4.1",
+        "drupal/devel": "^5.0",
         "drupal/upgrade_status": "^3.14",
         "drush/drush": "^11.0",
         "wikimedia/composer-merge-plugin": "^2.0"
