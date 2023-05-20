@@ -9,6 +9,7 @@ dependencies:
     - contact
     - filter
     - search
+    - simplenews
     - system
 _core:
   default_config_hash: 6WavjUYXIegP9AAg2zXGx54MWIVoomC3SZhNiqe-Dyk
@@ -21,4 +22,5 @@ permissions:
   - 'access content'
   - 'access site-wide contact form'
   - 'search content'
+  - 'subscribe to newsletters'
   - 'use text format restricted_html'
