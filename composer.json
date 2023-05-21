@@ -57,7 +57,9 @@
             }
         },
         "merge-plugin": {
-            "require": []
+            "require": [
+                "web/modules/maintain/flexible_views/composer.json"
+            ]
         },
         "installer-paths": {
             "web/core": [
