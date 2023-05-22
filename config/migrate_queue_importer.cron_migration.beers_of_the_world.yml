@@ -1,0 +1,11 @@
+uuid: 0f14afd1-91f5-4c11-bde2-ba26a427d0e4
+langcode: en
+status: true
+dependencies: {  }
+id: beers_of_the_world
+label: 'Beers of the world'
+migration: beer_node
+time: 60
+update: true
+sync: true
+ignore_dependencies: false
