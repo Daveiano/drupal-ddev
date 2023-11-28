@@ -99,6 +99,22 @@ Includes necessary PHPStorm configs for:
 * [[Drupal.org] Running PHPUnit tests](https://www.drupal.org/docs/automated-testing/phpunit-in-drupal/running-phpunit-tests)
 * [[drush.org] Drush commands](https://www.drush.org/latest/commands/all/)
 
+## Upgrade to Drupal 10
+
+### Preparation
+
+https://www.drupal.org/docs/upgrading-drupal/upgrading-from-drupal-8-or-later/upgrading-from-drupal-9-to-drupal-10/overview
+
+### Upgrade
+
+https://www.drupal.org/docs/upgrading-drupal/upgrading-from-drupal-8-or-later/upgrading-a-composer-based-site
+
+```
+ddev composer require 'drupal/core-recommended:^10' 'drupal/core-composer-scaffold:^10' 'drupal/core-project-message:^10' --update-with-dependencies --no-update
+ddev composer require 'drupal/core-dev:^10' --dev --update-with-dependencies --no-update
+ddev composer update
+```
+
 ## Credits
 
 Thanks to Matt Glaman for the webdriver container (https://mglaman.dev/blog/running-drupals-functionaljavascript-tests-ddev).
