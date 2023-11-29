@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="LaravelPintOptionsConfiguration">
+    <option name="ruleset" value="laravel" />
+  </component>
   <component name="MessDetectorOptionsConfiguration">
     <option name="transferred" value="true" />
   </component>
@@ -180,6 +183,10 @@
       <path value="$PROJECT_DIR$/vendor/longwave/laminas-diactoros" />
       <path value="$PROJECT_DIR$/vendor/commerceguys/addressing" />
       <path value="$PROJECT_DIR$/vendor/commerceguys/intl" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php83" />
+      <path value="$PROJECT_DIR$/vendor/colinodell/psr-testlogger" />
+      <path value="$PROJECT_DIR$/vendor/mck89/peast" />
+      <path value="$PROJECT_DIR$/vendor/phpstan/phpstan-phpunit" />
     </include_path>
   </component>
   <component name="PhpInterpreters">
@@ -298,7 +305,7 @@
   <component name="PhpUnit">
     <phpunit_settings>
       <phpunit_by_interpreter interpreter_id="313b7783-4a70-4a75-909e-4bd213a1e6b6" load_method="PHPUNIT_PHAR" configuration_file_path="/var/www/html/web/core/phpunit.xml" custom_loader_path="/var/www/html/vendor/autoload.php" phpunit_phar_path="vendor/bin/phpunit" use_configuration_file="true" />
-      <PhpUnitSettings custom_loader_path="$PROJECT_DIR$/vendor/autoload.php" />
+      <PhpUnitSettings configuration_file_path="$PROJECT_DIR$/web/core/phpunit.xml" custom_loader_path="$PROJECT_DIR$/vendor/autoload.php" phpunit_phar_path="" use_configuration_file="true" />
     </phpunit_settings>
   </component>
   <component name="PsalmOptionsConfiguration">
